@@ -1,6 +1,6 @@
 <!-- Banner principal -->
 <div align="center">
-  <img src="./principal.png" alt="Principal HTB Machine Banner" width="800"/>
+  <img src="./PRINCIPAL.png" alt="Principal HTB Machine Banner" width="800"/>
 </div>
 
 <!-- Badges de identificación -->
